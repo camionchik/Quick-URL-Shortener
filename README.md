@@ -58,7 +58,7 @@ You can choose the service and provide credentials using the `config.json` file:
 ```
 
 * `service`: Choose between `"tinyurl"` or `"bitly"`.
-* `bitly_token`: Required only if using Bitly. So if you were going to use TinyURL, you didn't need to fill it out.. Obtain a token via Bitly's API dashboard.
+* `bitly_token`: Required only if using Bitly. So if you are going to use TinyURL, you do not need to fill it out. Obtain a token via Bitly's API dashboard.
 
 ## Testing
 
