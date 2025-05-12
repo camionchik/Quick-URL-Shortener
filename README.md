@@ -43,7 +43,7 @@ python shortener.py https://example.com/very/long/url
 Output:
 
 ```
-INFO: Shortened URL: https://tinyurl.com/xyz123 (Copied to clipboard!)
+INFO: Shortened URL: https://tinyurl.com/xyz123
 ```
 
 ## Configuration
