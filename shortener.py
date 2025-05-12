@@ -1,5 +1,4 @@
 import requests
-import pyperclip
 import sys
 import json
 import logging
@@ -47,8 +46,7 @@ def main():
     short_url = shorten_url(long_url, config)
 
     if short_url:
-        pyperclip.copy(short_url)
-        logger.info(f"Shortened URL: {short_url} (Copied to clipboard!)")
+        logger.info(f"Shortened URL: {short_url}")
     else:
         logger.error("Failed to shorten URL. Please check the URL and try again.")
 
